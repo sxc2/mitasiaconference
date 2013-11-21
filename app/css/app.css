@@ -1,0 +1,181 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+/** splash well **/
+.transparent-happy {
+  background-color: #FFF;
+  opacity: 0.95;
+/**  -moz-box-shadow: 0 0 5px 5px rgba(200,200,200,0.7);
+  -webkit-box-shadow: 0 0 5px 5px rgba(200,200,200,0.7);
+  box-shadow: 0 0 5px 5px rgba(200,200,200,0.7); 
+  **/
+}
+
+.slight-padding {
+  padding: 15px;
+}
+
+/** social nav bar tweaks **/
+#navbar-social-facebook, #navbar-social-twitter {
+  margin-left: 2px;
+  padding-left: 2px;
+  margin-right: 2px;
+  padding-right: 2px;
+}
+
+/** adjusting fonts **/
+body {
+  font-family: 'Muli',serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6  {
+  font-family: 'Playfair Display',sans-serif;
+}
+
+.small-italic {
+  font-style: italic;
+  font-size: 10pt;
+}
+
+/** header titles styling **/
+.emboss-header{
+  text-shadow: 2px 3px 3px #4d4d4d;
+  color: #FFF;
+  opacity: 0.9;
+}
+
+/** map styling **/
+.bottom-padded {
+  padding-bottom: 80px;
+}
+
+.elegant-font{
+  font-family: 'Playfair Display',sans-serif;
+/**  font-family: 'Lobster',serif;  **/
+}
+
+/** adjusting section breaks **/
+.section-break{
+  padding-top: 80px;
+}
+
+/** adjusting dark back with white wells **/
+.dark-text {
+  color: #222;
+}
+
+/** Sponsors **/
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.translucent{
+  opacity: 0.9;
+}
+
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+.sponsorThumbnail{
+  margin-bottom: 20px;
+}
+
+.smalllogo{
+  height: 40px;
+  width: 40px;  
+}
+
+.text-gold{
+  color: #D9A441;
+}
+
+.text-bronze{
+  color: #965A38;
+}
+
+.text-silver{
+  color: #A8A8A8;
+}
+
+.text-plat{
+  color: #CCC2C2;
+  text-shadow: 1px 1px 1px #CCC2C2;
+}
+
+/** registration **/
+.eventbrite-cell{
+  height: 400px;
+}
+
+/** footer **/
+.strip-link-color{
+  color: #CCC;
+}
+
+.fixed-width-icon{
+  width: 40px;
+}
+
+.red {
+  color: #FF6666;
+}
+
+.dp
+{
+  opacity: 0.8;
+  padding: 5px;
+  transition: all 1s ease-in-out;
+}
+
+.dp:hover
+{
+  transform:rotate(360deg);
+  -ms-transform:rotate(360deg);  
+  -webkit-transform:rotate(360deg);  
+        /*-webkit-font-smoothing:antialiased;*/
+}
+
+.heavy-padding{
+  padding-right: 100px;
+  padding-left: 100px;
+}
